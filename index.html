@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kimin sivu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--CSS fundamentals: task flow found in style.css comments-->
+    <h1>Tervetuloa Kimin sivulle!</h1>
+    <p>Tämä on tekstikappale</p>
+    <img src="tohtorisykero.png" alt="Tohtori Sykerö" />
+
+    <h2>Suosikki harrastukseni</h2>
+    <ol>
+      <li>Kuntosali</li>
+      <li>Lenkkeily</li>
+      <li>Ohjelmointi</li>
+    </ol>
+
+    <h2>Suosikki ohjelmointikieleni</h2>
+    <ul>
+      <li>Python</li>
+      <li>Java</li>
+      <li>PHP</li>
+    </ul>
+
+    <a href="https://www.laurea.fi">Opiskelen täällä</a>
+
+    <div class="content-box">
+      <h3>Näyteotsikko</h3>
+      <p>Tämä on näytekappale div-elementin sisällä.</p>
+    </div>
+
+    <table>
+      <tr>
+        <th>Lempiruoka</th>
+        <th>Lempijuoma</th>
+      </tr>
+      <tr>
+        <td>Makaronilaatikko</td>
+        <td>Kahvi</td>
+      </tr>
+      <tr>
+        <td>Pizza</td>
+        <td>Pepsi Max</td>
+      </tr>
+      <tr>
+        <td>Kana ja riisi</td>
+        <td>Vesi</td>
+      </tr>
+    </table>
+
+    <form>
+      <label for="name">Nimi:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Sähköposti:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <input type="submit" value="Lähetä" />
+    </form>
+
+    <!--Advanced CSS: task flow found in style.css comments starting at line 81-->
+    <section id="advanced-css">
+      <h2>Edistynyt CSS</h2>
+      <h3>Painikkeen siirtymä</h3>
+      <button class="transition-button">Hover me</button>
+      <h3>Animaatio</h3>
+      <div class="animation-box"></div>
+      <h3>Pseudo-luokat</h3>
+      <ul class="pseudo-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+      <h3>Filterit</h3>
+      <img src="./office.jpg" alt="Sample Image" class="filter-image" />
+      <h3>Pseudo-elementit</h3>
+      <blockquote class="quote">This is a sample quote.</blockquote>
+    </section>
+  </body>
+</html>
